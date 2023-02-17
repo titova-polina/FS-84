@@ -8,6 +8,10 @@
   src: url(../fonts/Open_Sans/);
 }*/
 
+:root {
+  --main-title-color: #fff;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -19,6 +23,18 @@ body {
 .link {
   text-decoration: none;
 }
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/*-----------Header-------------*/
 
 .header {
   background-color: gray;
@@ -44,6 +60,11 @@ body {
   color: #ffffff;
 }
 
+.header-link:hover,
+.header-link:focus {
+  color: #ff6c00;
+}
+
 .header-tel {
   font-weight: 600;
   font-size: 12px;
@@ -54,11 +75,187 @@ body {
 }
 
 .header-btn {
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
   color: #ffffff;
+}
+
+/*-----------Hero-------------*/
+
+.hero {
+  background-color: gray;
+}
+
+.hero-list {
+}
+
+.hero-item {
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+
+.hero-link:hover {
+  color: #ff6c00;
+}
+
+.hero-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.hero-discription {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/*---------about----------*/
+
+.about {
+}
+
+.about-list {
+}
+
+.about-item {
+}
+
+.about-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: calc(15 / 11);
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.about-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.about-discription {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.about-discription span {
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.about-btn {
+  color: #303030;
+}
+
+/*--------prices----------*/
+
+.prices {
+}
+.prices-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.prices-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.prices-list {
+}
+
+.list {
+}
+
+.prices-item {
+}
+
+.prices-icon-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.prisec-item {
+}
+
+.prices-btn {
+  color: #ffffff;
+}
+
+/*---------benefits----------*/
+
+.benefits {
+}
+
+.benefits-list {
+}
+
+.benefits-item > span {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.benefits-item-text {
+}
+
+.benefits-subtitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.33;
+  text-align: center;
+  color: #303030;
+}
+
+.benefits-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.benefits-discription {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
 }
